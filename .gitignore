@@ -1,3 +1,4 @@
+#### Java gitignore on Jetbrains
 # Compiled class file
 *.class
 
@@ -22,3 +23,32 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+#### Python gitignore on Pycharm
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environment
+.env/
+*.venv/
+venv/
+ENV/
+env.bak/
+*.env.bak
+
+# PyCharm IDE files
+.idea/
+*.iml
+
+# Miscellaneous
+__pycache__/
