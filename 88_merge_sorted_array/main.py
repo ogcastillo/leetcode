@@ -25,6 +25,11 @@ if __name__ == '__main__':
     m = 3
     nums2 = [2, 5, 6]
     n = 3
-    merge(nums1, m, nums2, n)
+    try:
+        merge(nums1, m, nums2, n)
+    except Exception as e:
+        log.error(e,exc_info=True)
     print(nums1)
+
+
 
