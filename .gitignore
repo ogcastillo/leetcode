@@ -52,3 +52,6 @@ env.bak/
 
 # Miscellaneous
 __pycache__/
+
+#Virtual environment
+myenv
