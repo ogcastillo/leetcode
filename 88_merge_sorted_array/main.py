@@ -1,6 +1,11 @@
 import os
+import sys
 import time
 from typing import List
+
+# Add the root directory to the path so we can import utilityFunctions
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 # import utilityFunctions.ConsoleLogger  as consoleLog
 import utilityFunctions.FileLogger as fileLog
 

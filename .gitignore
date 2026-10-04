@@ -50,6 +50,9 @@ env.bak/
 .idea/
 *.iml
 
+# VS Code IDE files
+.vscode/
+
 # Miscellaneous
 __pycache__/
 
